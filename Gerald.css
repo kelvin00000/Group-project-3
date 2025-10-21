@@ -12,6 +12,7 @@
   width: 100%;
   position: relative;
   overflow: hidden;
+  background-size: cover;
 }
 
 
@@ -63,7 +64,7 @@
 }
 
 
-.text {
+.center-1 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -75,19 +76,20 @@
   position: relative;
 }
 
-.text h1 {
+.center-1 h1 {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   text-align: center;
   font-size: 3em;
-}
-
-.text p {
-  text-align: center;
-  margin-top: 1em;
   color: white;
 }
 
-.text a {
+.center-1 p {
+  text-align: center;
+  margin-top: 1em;
+  color:white;
+}
+
+.center-1 a {
   text-decoration: none;
   background-color: white;
   border: none;
@@ -131,17 +133,24 @@
   width: 60px;
 }
 
-.text button {
+.center-1 button {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 175px;
   border-radius: 100%;
   border: 1px solid white;
   padding: 8px 8px;
   background: none;
 }
 
-.text button svg {
+.center-1 button svg {
   fill: white;
+}
+.beck-3 p{
+  color: white;
+  
+}
+.beck-3{
+  display: flex;
 }
